@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
+}
+
+.whole {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20%;
+}
+
+.input {
+  height: 100%;
+  border-radius: 22px;
+}
+
+.dynamic-text-input {
+  display: flex;
+  margin: 10px;
+}
+
+.styling {
+  height: 100%;
+  width: 40%;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.button {
+  height: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 120px;
+}
+/* Write your CSS code here */
